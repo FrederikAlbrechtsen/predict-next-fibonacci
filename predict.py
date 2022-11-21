@@ -2,8 +2,6 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers
 
-
-
 def split_sequence(sequence: list, n_steps: int):
     x,y = [], []
     
@@ -36,8 +34,7 @@ data = [1,1,2,3,5,8,13,21,34,55,89,144,233]
 n_steps = 5
 x, y = split_sequence(data, n_steps)
 
-# LSTM need input of the form [batch, timesteps, features]
-# hence we need to shape the the data x
+# Reshape the data x
 n_features = 1
 x = x.reshape((x.shape[0], x.shape[1], n_features))
 
@@ -56,8 +53,6 @@ model.compile(
 model.fit(x, y, epochs=200, verbose=1)
 
 model.summary()
-
-print("")
 
 # Predictions
 test_data = np.array([89,144,233,377,610], dtype=np.float32)
