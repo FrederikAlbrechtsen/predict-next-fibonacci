@@ -1,4 +1,3 @@
-# Sequence Prediction with LSTM
+# Predict the next Fibonacci number
 
-Utilizing the RNN architecture LSTM, which are capable of learning long-term 
-dependencies, to predict the next Fibonacci number
+A RNN model utilizing LSTM to predict the next fibonacci number
