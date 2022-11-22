@@ -1,6 +1,11 @@
 # Predict the next Fibonacci number
 
-A RNN model utilizing LSTM to predict the next Fibonacci number
+A RNN model utilizing LSTM to predict the next Fibonacci number.
+
+<!-- ROADMAP -->
+## Roadmap
+- [ ] Improve the model
+- [ ] Improve evaluation of the model
 
 <!-- CONTRIBUTING -->
 ## Contributing
