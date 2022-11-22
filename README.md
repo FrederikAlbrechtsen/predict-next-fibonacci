@@ -2,10 +2,6 @@
 
 A RNN model utilizing LSTM to predict the next Fibonacci number
 
-<!-- ROADMAP -->
-## Roadmap
-TODO
-
 <!-- CONTRIBUTING -->
 ## Contributing
 If you have a suggestion to improve this, please fork the repo and create a pull request. You can also 
